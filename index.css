@@ -1,0 +1,88 @@
+/* Đặt kiểu chung cho toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Tạo kiểu cho phần header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Tạo kiểu cho phần navigation */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 100px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Tạo kiểu cho phần main */
+main {
+    background-color: #f4f4f4;
+    font-size: 18px;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Tạo kiểu cho phần footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Tạo kiểu cho các thẻ h1 */
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+    color: #333;
+}
+
+/* Tạo kiểu cho các thẻ p */
+p {
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+/* Thêm các quy tắc CSS bổ sung */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
